@@ -1,8 +1,23 @@
 h1 {
-  color:#A0DAA9;
-  font-family:verdana;
+  color:Black;
+  font-family:Copperplate;
 
 }
+
+h2 {
+  color:#A0DAA9;
+  font-family:Monaco;
+  text-shadow: 1px 1px 3px #bdffc7
+
+}
+
+h3 {
+  color:black;
+  font-family:cursive;
+  text-shadow: 1px 1px 5px #f09292;
+
+}
+
 
 p {
 }
@@ -20,8 +35,16 @@ p {
 
 img {
   border: 5px solid #A0DAA9;
-  width:50%;
-  height:50%;
+  width:25%;
+  height:25%;
   margin-left:100px;
+
+}
+
+#gif {
+  border: 0px;
+  width:15%;
+  height:15%;
+  margin-left:10px;
 
 }
