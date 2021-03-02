@@ -18,25 +18,22 @@
   font-family: carlson;
 }
 
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@1,700&family=Merriweather&display=swap');
-</style>
-
-body {
-  background-color: #46454d;
-  padding:50px;
-  font-family: carlson;
-  color:white;
-  font-weight:400;
+@font-face {
+  src: url(Fonts/JosefinSlab-VariableFont_wght.ttf);
+  font-family: josefin
 }
 
-header {
-font-family: silent;
-background-color: #46454d;
+
+body {
+  background-color:#0c0e0f;
+  padding:50px;
+  font: 14px/1.5
+  font-weight:400;
+
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color:white;
+  color: white;
   margin:0 0 20px;
 }
 
@@ -49,40 +46,49 @@ h1, h2, h3 {
 }
 
 h1 {
- font-family: silent;
+  font-family: silent;
   font-size:28px;
   font-weight: 500;
 }
 
 h2 {
-  font-family: nickel;
-  color:white;
+  color:#393939;
   font-weight: 500;
 }
 
 h3, h4, h5, h6 {
-  color: white;
+  color:#494949;
   font-weight: 500;
 }
 
+p {
+  color: white;
+  font-family: JosefinSlab;
+}
+
 a {
-  color:yellow;
+  color:#fffdc9;
+  font-size: 20px;
+  font-family: nickel;
+  font-weight: 400;
   text-decoration:none;
 }
 
 a:hover {
-  color:#fff7f7;
+  color:#ff5454;
 }
 
-a small {
-  font-size:11px;
-  color: white;
+small {
+  font-size:15px/1.5;
+  font-weight: 400;
+  font-family: JosefinSlab;
+  color: yellow;
   margin-top:-0.3em;
   display:block;
 }
 
 a:hover small {
-  color:yellow;
+  color:#777;
 }
 
 .wrapper {
@@ -91,7 +97,7 @@ a:hover small {
 }
 
 blockquote {
-  border-left:1px solid #fff7f7;
+  border-left:1px solid #e5e5e5;
   margin:0;
   padding:0 0 0 20px;
   font-style:italic;
@@ -104,9 +110,9 @@ code, pre {
 
 pre {
   padding:8px 15px;
-  background: #46454d;
+  background: #f8f8f8;
   border-radius:5px;
-  border:1px solid #46454d;
+  border:1px solid #e5e5e5;
   overflow-x: auto;
 }
 
@@ -122,12 +128,12 @@ th, td {
 }
 
 dt {
-  color:#46454d;
+  color:#444;
   font-weight:500;
 }
 
 th {
-  color:#46454d;
+  color:#444;
 }
 
 img {
@@ -145,7 +151,7 @@ header ul {
   list-style:none;
   height:40px;
   padding:0;
-  background: white;
+  background: #f4f4f4;
   border-radius:5px;
   border:1px solid #e0e0e0;
   width:270px;
@@ -169,7 +175,7 @@ header li:last-child a {
 header ul a {
   line-height:1;
   font-size:11px;
-  color:yellow;
+  color:#999;
   display:block;
   text-align:center;
   padding-top:6px;
@@ -177,15 +183,15 @@ header ul a {
 }
 
 header ul a:hover {
-  color: white;
+  color:#999;
 }
 
 header ul a:active {
-  background-color: white;
+  background-color:#f0f0f0;
 }
 
 strong {
-  color:yellow;
+  color:#222;
   font-weight:500;
 }
 
@@ -197,17 +203,13 @@ header ul li + li + li {
 header ul a strong {
   font-size:14px;
   display:block;
-  color:yellow;
+  color:#222;
 }
 
 section {
   width:500px;
   float:right;
   padding-bottom:50px;
-}
-
-small {
-  font-size:11px;
 }
 
 hr {
@@ -243,7 +245,7 @@ footer {
   }
 
   section {
-    border:1px solid white;
+    border:1px solid #e5e5e5;
     border-width:1px 0;
     padding:20px 0;
     margin:0 0 20px;
@@ -296,6 +298,6 @@ footer {
   body {
     padding:0.4in;
     font-size:12pt;
-    color:white;
+    color:#444;
   }
 }
