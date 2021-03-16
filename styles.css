@@ -19,21 +19,20 @@
 }
 
 @font-face {
-  src: url(Fonts/JosefinSlab-VariableFont_wght.ttf);
-  font-family: josefin
+  src: url(Fonts/josefinslab-variablefont_wght-webfont.woff);
+  font-family: josefin;
 }
 
 
 body {
-  background-color:#0c0e0f;
-  padding:50px;
+  background-color: black;
+  padding:2px;
   font: 14px/1.5
   font-weight:400;
 
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: white;
   margin:0 0 20px;
 }
 
@@ -46,43 +45,43 @@ h1, h2, h3 {
 }
 
 h1 {
+  color: white;
   font-family: silent;
-  font-size:28px;
+  font-size:30px;
   font-weight: 500;
 }
 
 h2 {
-  color:#393939;
-  font-weight: 500;
+  color: white;
+  font-weight: 200;
+  font-family: silent;
 }
 
 h3, h4, h5, h6 {
-  color:#494949;
-  font-weight: 500;
+  color: white;
+  font-weight: light;
 }
 
 p {
   color: white;
-  font-family: JosefinSlab;
+  font-family:josefinslab;
 }
 
 a {
-  color:#fffdc9;
-  font-size: 20px;
-  font-family: nickel;
-  font-weight: 400;
+  color: #FFFDBD;
+  font-family: josefin;
   text-decoration:none;
 }
 
 a:hover {
-  color:#ff5454;
+  color:#FFC588;
 }
 
 small {
-  font-size:15px/1.5;
-  font-weight: 400;
-  font-family: JosefinSlab;
-  color: yellow;
+  font-size:10px;
+  font-weight: 200;
+  font-family: silent;
+  color: #959595;
   margin-top:-0.3em;
   display:block;
 }
@@ -97,14 +96,16 @@ a:hover small {
 }
 
 blockquote {
-  border-left:1px solid #e5e5e5;
+  border-left:1px solid #959595;
+  color: #959595;
+  font-family: carlson;
   margin:0;
   padding:0 0 0 20px;
   font-style:italic;
 }
 
 code, pre {
-  font-family:Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace;
+  font-family:josefin;
   color:#333;
 }
 
