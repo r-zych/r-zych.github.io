@@ -34,9 +34,67 @@
       </header>
 
   <section>
-<p> here will be text </p>
+      <h1> About </h1>
+        <p>
+          The initial goal for this project was to limit analysis to what could be extracted from filmography data alone. That quickly became too limiting to maintain, but it still remains a central grounding. Below I account for the sources, processing, and presentation that has resulted in the final product you see here.
+        </p>
 
 </section>
+
+<section>
+  <h2> Sources </h2>
+  <p>
+   Preliminary filmography records for this project were copied from Mabel Normand’s IMDb page using the web scraping application ParseHub. While IMDb was not an ideal source, it had the structure and breadth that would work best, making it the best starting point. As the information hosted on IMDb was not entirely reliable or consistant, I compared and combined it with the filmography that Simon Joyce and Jennifer Putzi’s have compiled for the Women Film Pioneers Project, but they have been more conservative in their presentation, leaving out information (like studio attribution), that is relatively verifiable and useful to my analysis. I also compared my data data against the filmographies and narratives given by biographers Betty Fussel, and William Thomas Sherman. Dealing with any apparent discrepancies, of which there were very few, I have deferred to Women Film Pioneers Project (to the extent possible) as it seems to me to be the most thoroughly researched compilation. For more on the limitations of this data set, see Act 7.
+
+  <br></br>
+
+   Because certain artifacts, like posters, notices, images, and videos were important to giving a full sense of Normand’s career, I have also embedded videos from YouTube and images from the Lantern database, a project of the University of Wisconsin’s Media History Digital Library (MDHL). MDHL’s Arclight was used to export information about the frequency of  Normand’s mention in Hollywood trade papers and magazines. You’ll find this information compared with google n-gram results on the legacy page.
+
+    <br></br>
+
+    I consulted many secondary sources of information about Normands life and career for this project and synthesized a lot of their observations in my commentary, but tried to limit the bearing on their more colorful stories or speculations on the conclusions I drew from her films and filmography. A list of the biographies and along with some film studies scholarship can be found in the epilogue.
+  <p>
+</section>
+
+<section>
+<h2> Processed </h2>
+  <p>
+  The initial ParseHub collection from IMDb was clustered and “cleaned” in OpenRefine. As mentioned above, the filmography data was checked against a handful of other sources and corrected or expanded where necessary. Average durations for Normand’s films each year was calculated directly in Tableau.
+     <br></br>
+The filmography was also used to create an edge and node list for network mapping. I consulted this tutorial to convert a bimodal edgelist into a unimodal edgelist in R studio.
+   <br></br>
+While the Knight Labs Story tools fill in some biographical information and context about film production at the time, it was important to me that this project make a point to see what conclusions could be grounded specifically in Normand’s filmography data and the films themselves rather than accounts of her personal life and suspicions about her habits or motivations. Still, some research was synthesized to create these representations of her life.
+ </p>
+
+</section>
+
+<section>
+<h2> Presented </h2>
+
+<p>
+  This webpage is hosted on GitHub. I have altered the “minimal’ template, making the site black and white and tracking down a font that suggests a silent film intertitle.
+   <br></br>
+   Visualizations were created in TableauPublic and Flourish. The Timeline, StoryMap, and StoryLine were created using tools available from Knight Labs. The studio timeline was created with time.graphics. Films from YouTube are embedded on the “performances” page.
+</p>
+</section>
+
+
+<section>
+<h2> A Note About Narrative Style </h2>
+<p>
+The mission of this project is to use filmography data and visualization tools to highlight some notable aspects of Mabel Normand’s career. In general, I have made a point to avoid unneeded extrapolation or speculation on Mable’s motivations, desires, secrets, feuds, or quirks.
+   <br></br>
+For the sake of concision and straightforward presentation, information about Normand’s life or career that can be found in multiple sources is treated as common knowledge. Direct quotation was made when absolutely necessary, or to comment on the scholarship itself. For further inquiry please consult the biographies and scholarship listed in the epilogue.
+ </p>
+</section>
+
+<section>
+<h2> About the Author </h2>
+<p>
+This site, its data visualizations, and accompanying narratives were created by Russell Zych during the first year of his MLIS program at UCLA. This was a final project for Miriam Posner’s Introduction to Digital Humanities course. It is his first time making a website and working with these tools, so please find it in your heart to excuse any errors. Any and all feedback will be graciously received at russellzych[at]ucla[dot]edu.
+ </p>
+</section>
+
 
 <footer>
   <p><small>This project was completed for Miriam Posner's graduate-level class <a href="http://miriamposner.com/classes/dh201w21/">"Introduction to Digital Humanities"</a> at UCLA, Winter 2021.</small> </p>
